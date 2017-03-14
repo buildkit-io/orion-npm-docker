@@ -9,4 +9,4 @@ RUN npm install --production
 RUN npm install pty.js
 VOLUME /workspace
 
-CMD ["npm", "start", "orion", "/workspace"]
+CMD ["npm", "start", "orion"]
