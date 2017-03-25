@@ -4,7 +4,7 @@ RUN npm config set unsafe-perm true
 RUN apt-get update
 RUN apt-get install git
 RUN git clone http://git.eclipse.org/gitroot/orion/org.eclipse.orion.client.git
-WORKDIR /orion.client/modules/orionode
+WORKDIR /org.eclipse.orion.client/modules/orionode
 RUN npm install --production
 RUN npm install pty.js
 EXPOSE 8081
